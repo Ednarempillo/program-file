@@ -6,6 +6,7 @@ semifinal = float(input("Enter Score: "))
 final = float(input("Enter Score: "))
 
 average = (prelim + midterm + semifinal + final)/4
+print(Average grade: {}!".format(average))
 
 print("Average grade: ")
 if average >=75:
